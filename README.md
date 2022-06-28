@@ -1,6 +1,6 @@
 # KrowdFunding-AuthServer
  KrowdFunding User/Auth with MSA 
- 
+
 ### 이 프로젝트에서 사용하는 라이브러리 목록 (redis, kafka, elasticsearch) 등은 configserver로부터 관리
  ```groovy
  dependencies {
@@ -13,7 +13,7 @@
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.cloud:spring-cloud-sleuth-zipkin")
-    implementation("org.springframework.cloud:spring-cloud-starter-config")
+    implementation("org.springframework.cloud:spring-cloud-config-client")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
     implementation("org.springframework.boot:spring-boot-starter-security")
